@@ -1,7 +1,7 @@
 locals {
   project = "pharma"
   env     = "dev"
-  region  = "ap-southeast-2"
+  region  = "us-east-1"
 }
 
 data "aws_caller_identity" "current" {}
